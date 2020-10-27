@@ -18,7 +18,7 @@ export const getStaticPaths = () => {
         locale: "en",
       },
     ],
-    fallback: true,
+    fallback: false,
   };
 };
 
