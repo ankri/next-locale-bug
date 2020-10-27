@@ -14,8 +14,8 @@ export const getStaticPaths = () => {
       {
         params: {
           slug: "slug-1",
-          locale: "en",
         },
+        locale: "en",
       },
     ],
     fallback: true,
